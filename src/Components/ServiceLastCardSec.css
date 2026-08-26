@@ -1,0 +1,71 @@
+/* section 2 of Service Card Last Section Page ##### */
+
+.fee-section-div1{
+background: #1C1C1C;
+padding-top: 120px;
+padding-bottom: 120px;
+margin-bottom:90px;
+margin-top:20px;
+overflow: hidden;
+position: relative;
+}
+.fee-svg-line-10{
+position: absolute;
+left: -10px;
+top: 0px;
+}
+
+.fee-section-text1{
+color: #22B7AD;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-align: center;
+}
+
+.fee-section-text1 span{
+color: #FFF;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.fee-section-text2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+@media screen and (max-width: 576px) {
+    .fee-section-div1{
+background: #1C1C1C;
+padding-top: 70px;
+padding-bottom: 70px;
+margin-bottom:70px;
+margin-top:20px;
+}
+
+.fee-section-text1{
+font-size: 30px;
+}
+
+.fee-section-text1 span{
+font-size: 30px;
+}
+
+.fee-section-text2{
+font-size: 14px;
+line-height: 1.7;
+}
+}

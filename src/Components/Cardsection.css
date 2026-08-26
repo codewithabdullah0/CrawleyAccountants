@@ -1,0 +1,164 @@
+.card-section-div1 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.card-section-div2 {
+  padding: 27px;
+  background: #fff;
+  box-shadow: 51px 51px 84px 0px rgba(135, 140, 189, 0.06);
+  height: 100%;
+}
+
+.card-picsection-div2 {
+  /* width: 320px; */
+  height: 180px;
+  flex-shrink: 0;
+  background: #ffe9ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-section-text1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 23px;
+}
+
+.card-section-text2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-picsection-div21 {
+  /* width: 320px; */
+  height: 180px;
+  flex-shrink: 0;
+  background: #e4e5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-picsection-div22 {
+  /* width: 320px; */
+  height: 180px;
+  flex-shrink: 0;
+  background: #cbfffb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.self-section-div0 {
+  padding-bottom: 80px;
+}
+
+.self-section-div1 {
+  background: #fff5d9;
+  padding-top: 12px;
+  padding-right: 25px;
+  padding-left: 55px;
+}
+
+.self-section-text1 {
+  color: #1c1c1c;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.self-section-text2 {
+  color: #1c1c1c;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.self-col2-div12 {
+  position: relative;
+}
+
+.self-col2-svg {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  z-index: 0;
+}
+
+.self-col2-img1 {
+  /* position:sticky; */
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+.card-mainsection-div1{
+  padding-left:0px;
+  padding-right:0px;
+}
+.card-section-div2 {
+    padding: 22px;
+}
+.self-section-div1 {
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    overflow: hidden;
+}
+.self-section-text1 {
+    font-size: 23px;
+}
+.self-section-text2 {
+    font-size: 16px;
+}
+.banner-btn-1 {
+    min-width: 100%;
+     padding-left: 20px; 
+     padding-right: 20px;
+    font-size: 20px; 
+}
+.self-col2-img1 {
+    margin-left: -21px;
+    width:115%;
+    height: auto;
+}
+.self-col2-svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+    z-index: 0;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 368px) {
+  .self-section-div1 {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+}
